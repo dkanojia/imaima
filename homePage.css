@@ -1,0 +1,207 @@
+body{margin: 0; padding: 0;}
+.as-banner {
+  /*  background: #e0e0e0;*/
+    padding: 2px 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.as-banner__title {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Times New Roman', Serif;
+    margin: 0px;
+   letter-spacing: .12em;
+   width:100%;
+}
+
+.headerHome {
+    position: relative;
+    font-family: Futura W01 Book,Arial,Verdana,sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    font-size: 12px;
+    border-bottom:1px solid #000000;
+}
+
+
+.headerHome a{ text-decoration: none; margin: 0; padding: 0; }
+h1.as-icon.icon-allsaints.icon-h1{ margin: 0; padding: 0;}
+#header-logo {
+    float: left;
+    font-size:26px;
+    -webkit-transition: font-size .3s ease-in-out;
+    -moz-transition: font-size .3s ease-in-out;
+    -o-transition: font-size .3s ease-in-out;
+    -ms-transition: font-size .3s ease-in-out;
+    transition: font-size .3s ease-in-out;
+    color: #666;
+    margin: 5px; padding: 5px;
+
+}
+.site-logo {
+    font-family: "Times New Roman",Times,serif;
+    display: inline-block;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+}
+
+#wrap{ width: 100%; /*background: url(bg.png);*/ float: left; background-repeat: no-repeat; }
+
+.homePageNav {
+    float: left;
+    width: 20%;
+}
+
+.homePageNav ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: -10px;
+}
+/*.homePageNav ul li ul li {
+    position:absolute;
+    margin-bottom: 5px;
+}*/
+
+.homePageNav ul li a{ text-decoration: none; color: #fff; font-size: 12px; }
+.content-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 75%; float: right;
+    text-align: center;
+}
+.sale-promo-wrapper {
+    overflow: auto;
+    padding: 10px 20px 30px 20px;
+    color: #fff; padding-top: 5%;
+     font-size:22px;
+}
+
+.content-block h2.title {
+   
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.buttons__cta {
+    display: inline-block;
+    padding: 8px 25px;
+    margin: 0 5px 20px;
+    width: calc(50% - 13px);
+    font-family: Futura W01 Book,Arial,Verdana,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.buttons__cta--white, .buttons__cta:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.container-container--fluid{  /*background: url(bg-inner.jpg); */  height: 100%; float: left; background-repeat: no-repeat; width: 100%; 		 }
+.sale-promo {
+    font-family: Times LT W01 Roman,Times New Roman,Times,serif!important;
+    font-weight: 400;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .4em 0;
+    overflow: hidden;
+    -webkit-font-smoothing: auto;
+}
+
+.sale-promo__text {
+    display: inline-block;
+    color: #fff;
+}
+
+.sale-promo__text p {
+    line-height: 4.8rem;
+}
+.sale-promo__divider {
+    border: 0;
+    border-bottom: 1px solid;
+    width: 50%;
+}
+
+.sale-promo__3 {
+    font-size: 3em;
+}
+
+.sale-promo__3--large {
+    font-size: 2.2em;
+    vertical-align: top;
+    top: -6px;
+    position: relative;
+}
+
+.sale-promo__text p {
+    line-height: 4.8rem;
+}
+
+.buttons__cta--transparent {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.visible-desktop {
+    display: block;
+
+}
+
+.sale-promo__buttons {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    max-width: 300px;
+    -webkit-font-smoothing: auto;
+    letter-spacing: 2px;
+    margin: auto;
+    text-align: center;
+}
+
+.sale-promo__buttons .buttons__cta {
+    padding: 8px 0;
+    margin: 0 12px 20px;
+}
+
+.sale-promo__buttons {
+    max-width: 1030px;
+}
+
+.visible-desktop.visible-desktop-large{ float: left; width: 100%; }
+
+
+
+.sale-promo__buttons {
+    max-width: 1030px;
+}
+
+.sale-promo__buttons li {
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+
+.sale-promo__buttons .buttons__cta {
+    padding: 8px 0;
+    margin: 0 12px 20px;
+    width: 90%;
+}
+
+.sale-promo__buttons-spacer {
+    display: block;
+    width: 12.5%!important;
+}

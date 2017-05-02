@@ -1,0 +1,117 @@
+.tablebox{
+	background:#d3d3d3 url(images/greybg.gif) repeat-x 0 0;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	padding:2px;
+	border:0;
+}
+
+.tableheading td{
+	border:1px solid #fff;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:2px 5px;
+	font-size:12px;
+	color:#333;	
+}
+
+.tablerow td{
+	background:#fff;
+	padding:2px;
+	border:0;
+}
+
+.tablerow td{
+	border:1px solid #333;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:2px 5px;
+	font-size:12px;
+	color:#333;	
+}
+.formbox{
+	background:#FFF;
+	padding:2px;
+	border:solid 1px grey;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.formbox tr td
+{
+    padding:5px 10px 5px 10px;		
+	text-align:left;
+	margin-right:10px;
+	color:#666;	
+	margin-top:4px;	
+}	
+
+.txtBox
+{
+    width:200px;
+	border:1px solid #c5c5c5;
+	background:#ebebeb;
+	padding:3px;
+}
+
+.txtarea
+{
+	width:500px;
+	height:200px;
+	border:1px solid #c5c5c5;
+	background:#ebebeb;
+	padding:3px;
+}
+
+
+.btn
+{
+	BORDER-RIGHT: #76a0c7 1px solid;
+	 BORDER-TOP: #76a0c7 1px solid; 
+	 FONT-SIZE: 11px; 
+	 BORDER-LEFT: #76a0c7 1px solid; 
+	 BORDER-BOTTOM: #76a0c7 1px solid; 
+	 FONT-FAMILY: Verdana; 
+	 BACKGROUND-COLOR: #e2ded6;
+	 padding:4px;
+}
+
+
+/*------------------------ oreder history page ------------------------*/
+
+.order_history_part
+{float:left; width:723px;}
+
+.oreder_heading { background: none repeat scroll 0 0 #FEE4F3; color: #535353; font-family: 'ArialRoundedMTBold',Helvetica,Arial,sans-serif; font-size: 16px;
+font-weight: bold; height: 40px; line-height: 40px; margin: 20px 0;padding: 0 0 0 10px;}
+
+.order_text_menu
+{text-decoration:underline; font-weight:bold;}
+
+
+#contactForm {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border: 1px solid #DAD9D9;
+    border-radius: 5px;
+    float: left;
+    margin: 10px 0 2px 18px;
+    padding: 20px 34px;
+}
+.pay_pal_main_heading {
+    color: #525151;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+.shoppingCart table.proTab {
+    border: 1px solid #ABABAB;
+}
+.shoppingCart table.proTab td, .shoppingCart table.proTab th {
+    border: 1px solid #ABABAB;
+	padding:3px;
+}
